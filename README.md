@@ -61,19 +61,22 @@ Provide examples of how to use the project, what functionality it offers, or how
 2. **Authentication**:
     To login access the {{your_host}}/oauth/token and replace the generated client id/secret.
 
+    ``` bash
     grant_type:password
     client_id:019b300a-8b38-72d0-b02a-90832a62dcec
     client_secret:Al9bhAK3797eytOBgN6HUDeRSkOKb81DnmN512SG
     username:admin@test.com
     password:password
     scope:
+    ```
 
 3. **Authorization and API Access**
-    After access the oauth/token please get the generated accesss token and put it on the headers to access the API.
-    
+    After access the oauth/token please get the generated accesss token and put it on the headers to access the 
+    ``` bash
     Authorization:Bearer {{generated_access_token}}
     Content-Type:application/json
     Accept:application/json
+    ```
 
 
 ## Contact
