@@ -78,6 +78,11 @@ Provide examples of how to use the project, what functionality it offers, or how
     Accept:application/json
     ```
 
+## API documentation
+
+``` bash
+    https://prospark.postman.co/workspace/My-Workspace~4489322d-0536-4a97-8eb4-0a66e1323b51/request/1024100-7438a0b6-d1a2-46f2-9e4d-28ae04dac0e5
+```
 
 ## Contact
 
